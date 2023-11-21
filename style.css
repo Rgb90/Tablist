@@ -1,25 +1,23 @@
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
-  
+
   .tab button {
     border: none;
     padding: 14px 16px;
   }
   
   .tab button:hover {
-    background-color: #ddd;
+    background-color: rgb(110, 165, 110);
   }
   
-  .tab button.active {
-    background-color: #ccc;
+  .active {
+    background-color: rgb(9, 196, 9);
   }
-  
-  .tabcontent {
+
+  .hide {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
   }
+  
+[id^="mescidi"] {
+   padding: 6px 12px;
+    border: 0.3px solid #ccc;
+    border-top: none;
+}
